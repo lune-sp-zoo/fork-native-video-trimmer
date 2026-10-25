@@ -88,6 +88,10 @@ Check the [example](example) folder for a complete sample app demonstrating all 
 | Android  | Media3         | API 21 (5.0)    | ✅     |
 | iOS      | AVFoundation   | iOS 11.0        | ✅     |
 
+iOS supports both CocoaPods and Swift Package Manager. Swift Package Manager
+requires Flutter 3.44 or later and an iOS deployment target of 13.0 or later;
+CocoaPods continues to support iOS 11.0 and later.
+
 ## 🛠️ Requirements
 
 ### Android
@@ -99,7 +103,7 @@ Check the [example](example) folder for a complete sample app demonstrating all 
 
 ### iOS
 
-- Minimum iOS: 11.0
+- Minimum iOS: 11.0 with CocoaPods, 13.0 with Swift Package Manager
 - Swift: 5.0
 - Xcode: Latest version
 
